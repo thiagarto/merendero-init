@@ -351,8 +351,9 @@ html{
     .about-txt p {
         margin-bottom: 0;
     }
-    .about-img {
-        width: 100%;
+    .about-img img{
+        padding-top: 20px;
+        width: 350px;
         text-align: center;
     }
     .info {
@@ -377,6 +378,17 @@ html{
     .footer-content {
         flex-direction: column;
     }
+    .show .go-top-button  {
+        position: relative;
+        padding-left: 80px;
+        bottom: 2rem;
+        right: 2rem;
+        width: 6rem;
+        height:6rem;
+            left: 80%;
+    }
+    
+    
 
 }
 
